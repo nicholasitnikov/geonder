@@ -1,14 +1,11 @@
-import React, { useState, useEffect, useContext, useReducer } from "react";
-import "antd/dist/antd.dark.css"
+
 import Head from 'next/head'
-import { MobileProvider } from '../contexts/mobileContext.js'
 
 const MyApp = ({ Component, pageProps }) => {
 
   return(
     <>
-      <MobileProvider>
-        <Head>
+      <Head>
         <link rel="stylesheet" href="/css/normalize.css" />
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet" />
         <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
@@ -16,8 +13,7 @@ const MyApp = ({ Component, pageProps }) => {
         <link rel="stylesheet" href="/css/base.css" />
         <title>Geonder — первая географическая библиотека</title>
         </Head>
-        <Component {...pageProps} />
-      </MobileProvider>
+      <Component {...pageProps} />
     </>
   )
 
