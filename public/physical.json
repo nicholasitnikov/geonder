@@ -1,0 +1,3649 @@
+{
+	"version": 8,
+	"name": "Map_500k_text",
+	"metadata": {
+		"mapbox:autocomposite": true,
+		"mapbox:type": "template",
+		"mapbox:sdk-support": {
+			"android": "9.3.0",
+			"ios": "5.10.0",
+			"js": "2.0.0"
+		},
+		"mapbox:uiParadigm": "layers",
+		"mapbox:groups": {
+			"fa6155ac2b740904b621e4bee5425ad3": {
+				"name": "NP"
+			},
+			"21f36f4e55bb57127d09a194bc667e33": {
+				"name": "Text",
+				"collapsed": false
+			},
+			"8977889dae756be165aef3a9b87e89d3": {
+				"name": "Wood",
+				"collapsed": false
+			},
+			"d8575452dc9d4350fa5a6f763d3d0cad": {
+				"name": "Road",
+				"collapsed": true
+			},
+			"2849e7f852ebb88ea654d7d3b1a677ff": {
+				"name": "NP",
+				"collapsed": false
+			},
+			"6c600e13cfd376c79f5c23c1ca6be5aa": {
+				"name": "Wood",
+				"collapsed": false
+			},
+			"6263512382bfd37be3dac1bdd821499e": {
+				"name": "Kwart",
+				"collapsed": true
+			},
+			"91bb0da75c039f79ac19ec704c3b4eff": {
+				"name": "Relef",
+				"collapsed": true
+			},
+			"68107616a88f2d88dfcf383861bdd176": {
+				"name": "Wood",
+				"collapsed": false
+			},
+			"f6b04368008ddfd374593519aa490936": {
+				"name": "Grunt",
+				"collapsed": true
+			},
+			"88c37a1df99a1b83e0b66f75c1d06ed3": {
+				"name": "Kwart"
+			},
+			"846ff9ff8495e42cb57434b32568bb00": {
+				"name": "Road",
+				"collapsed": false
+			},
+			"01b962196d50c3f15b8ba6189856a052": {
+				"name": "Water",
+				"collapsed": false
+			}
+		}
+	},
+	"center": [
+		8.183986551348823,
+		47.561873560962624
+	],
+	"zoom": 8.244880653151714,
+	"bearing": 0,
+	"pitch": 0,
+	"sources": {
+		"roads": {
+			"tiles": [
+				"https://tiles.geonder.ru/physical/roads/{z}/{x}/{y}.pbf"
+			],
+			"type": "vector",
+			"minzoom": 2,
+			"maxzoom": 12
+		},
+		"settlements": {
+			"tiles": [
+				"https://tiles.geonder.ru/physical/settlements/{z}/{x}/{y}.pbf"
+			],
+			"type": "vector",
+			"minzoom": 2,
+			"maxzoom": 12
+		},
+		"buildings": {
+			"tiles": [
+				"https://tiles.geonder.ru/physical/buildings/{z}/{x}/{y}.pbf"
+			],
+			"type": "vector",
+			"minzoom": 2,
+			"maxzoom": 12
+		},
+		"water": {
+			"tiles": [
+				"https://tiles.geonder.ru/physical/water/{z}/{x}/{y}.pbf"
+			],
+			"type": "vector",
+			"minzoom": 2,
+			"maxzoom": 12
+		},
+		"terrain": {
+			"tiles": [
+				"https://tiles.geonder.ru/physical/terrain/{z}/{x}/{y}.pbf"
+			],
+			"type": "vector",
+			"minzoom": 2,
+			"maxzoom": 12
+		},
+		"horizontals": {
+			"tiles": [
+				"https://tiles.geonder.ru/physical/horizontals/{z}/{x}/{y}.pbf"
+			],
+			"type": "vector",
+			"minzoom": 2,
+			"maxzoom": 12
+		}
+	},
+	"sprite": "mapbox://sprites/asitnikov/cknsxat7n0pqb17nwc2orymzl/ck2u8j60r58fu0sgyxrigm3cu",
+	"glyphs": "mapbox://fonts/asitnikov/{fontstack}/{range}.pbf",
+	"layers": [
+		{
+			"id": "lesa-gustie-nizkoroslie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "68107616a88f2d88dfcf383861bdd176"
+			},
+			"source": "terrain",
+			"source-layer": "lesagustienizkoroslie",
+			"paint": {
+				"fill-color": "hsl(105, 58%, 85%)"
+			}
+		},
+		{
+			"id": "lesa-gustie-visokie-obichnie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "68107616a88f2d88dfcf383861bdd176"
+			},
+			"source": "terrain",
+			"source-layer": "lesagustievisokieobichnie",
+			"paint": {
+				"fill-color": "hsl(88, 57%, 77%)"
+			}
+		},
+		{
+			"id": "kustarniki-obichnie-zarosli",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "68107616a88f2d88dfcf383861bdd176"
+			},
+			"source": "terrain",
+			"source-layer": "kustarnikiobichniezarosli",
+			"paint": {
+				"fill-color": "hsl(105, 58%, 85%)"
+			}
+		},
+		{
+			"id": "sadi-fruktovie-i-tsitrusovie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "68107616a88f2d88dfcf383861bdd176"
+			},
+			"source": "terrain",
+			"source-layer": "sadifruktovieitsitrusovie",
+			"paint": {
+				"fill-color": "hsl(105, 58%, 85%)"
+			}
+		},
+		{
+			"id": "palmovie-roshchi",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "68107616a88f2d88dfcf383861bdd176"
+			},
+			"source": "terrain",
+			"source-layer": "palmovieroshchi",
+			"paint": {
+				"fill-color": "hsl(105, 58%, 85%)"
+			}
+		},
+		{
+			"id": "vinogradniki",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "68107616a88f2d88dfcf383861bdd176"
+			},
+			"source": "terrain",
+			"source-layer": "vinogradniki",
+			"paint": {
+				"fill-color": "hsl(105, 58%, 85%)"
+			}
+		},
+		{
+			"id": "bolota-prokhodimie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "bolotaprokhodimie",
+			"paint": {
+				"fill-color": "hsla(196, 100%, 84%, 0.3)",
+				"fill-outline-color": "hsla(0, 0%, 0%, 0)"
+			}
+		},
+		{
+			"id": "berega-osikhayushchie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "beregaosikhayushchie",
+			"paint": {
+				"fill-color": "hsla(190, 100%, 100%, 0.22)",
+				"fill-outline-color": "hsla(0, 0%, 0%, 0)"
+			}
+		},
+		{
+			"id": "meli",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "meli",
+			"paint": {
+				"fill-color": "hsla(190, 100%, 100%, 0.22)"
+			}
+		},
+		{
+			"id": "ovragi",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "ovragi",
+			"paint": {
+				"fill-color": "hsl(43, 67%, 61%)"
+			}
+		},
+		{
+			"id": "peski-barkhannie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "peskibarkhannie",
+			"paint": {
+				"fill-color": "hsla(52, 100%, 73%, 0.39)"
+			}
+		},
+		{
+			"id": "peski-gryadovie-i-dyunnie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "peskigryadovieidyunnie",
+			"paint": {
+				"fill-color": "hsla(52, 100%, 73%, 0.39)"
+			}
+		},
+		{
+			"id": "peski-rovnie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "peskirovnie",
+			"paint": {
+				"fill-color": "hsla(52, 100%, 73%, 0.39)"
+			}
+		},
+		{
+			"id": "ploshchadi-razliv-zoni-zatoplen",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "water",
+			"source-layer": "ploshchadirazlivzonizatoplen",
+			"paint": {
+				"fill-color": "hsla(0, 0%, 0%, 0)"
+			}
+		},
+		{
+			"id": "promoini-polygon",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "promoinipolygon",
+			"paint": {
+				"fill-color": "hsl(43, 67%, 61%)"
+			}
+		},
+		{
+			"id": "skali-i-skalistie-obrivi",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "skaliiskalistieobrivi",
+			"paint": {
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(26, 99%, 36%, 0)",
+					10,
+					"hsl(26, 99%, 36%)",
+					10.51,
+					"hsl(26, 99%, 36%)"
+				],
+				"fill-color": "hsl(33, 54%, 64%)"
+			}
+		},
+		{
+			"id": "solonchaki-neprokhodimie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "solonchakineprokhodimie",
+			"paint": {
+				"fill-color": "hsla(196, 100%, 84%, 0.3)",
+				"fill-outline-color": "hsla(0, 0%, 0%, 0)"
+			}
+		},
+		{
+			"id": "solonchaki-prokhodimie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "solonchakiprokhodimie",
+			"paint": {
+				"fill-color": "hsla(196, 100%, 84%, 0.3)",
+				"fill-outline-color": "hsla(0, 0%, 0%, 0)"
+			}
+		},
+		{
+			"id": "sukhie-rusla-arc",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "water",
+			"source-layer": "sukhieruslaarc",
+			"minzoom": 2,
+			"paint": {
+				"fill-color": "hsl(43, 67%, 61%)"
+			}
+		},
+		{
+			"id": "firnovie-polya",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "firnoviepolya",
+			"paint": {
+				"fill-color": "hsla(223, 100%, 84%, 0.49)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(232, 100%, 44%, 0)",
+					22,
+					"hsl(232, 100%, 44%)"
+				]
+			}
+		},
+		{
+			"id": "ledniki",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "f6b04368008ddfd374593519aa490936"
+			},
+			"source": "terrain",
+			"source-layer": "ledniki",
+			"paint": {
+				"fill-color": "hsla(223, 100%, 88%, 0.49)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(232, 100%, 44%, 0)",
+					22,
+					"hsl(232, 100%, 44%)"
+				]
+			}
+		},
+		{
+			"id": "legkie-ograzhdeniya",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "legkieograzhdeniya",
+			"paint": {
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					9,
+					0,
+					9.1,
+					1
+				]
+			}
+		},
+		{
+			"id": "kvart-neodnor-v-p-s-dach-tipa",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartneodnorvpsdachtipa",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(0, 0%, 100%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvart-neodnor-zastr-krup-gor",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartneodnorzastrkrupgor",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(0, 0%, 100%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvart-neodnorod-zastr-mal-gor",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartneodnorodzastrmalgor",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(0, 0%, 100%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvartali-nezastroennie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartalinezastroennie",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(0, 0%, 100%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvartali-redko-zastroennie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartaliredkozastroennie",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsla(36, 86%, 84%, 0.73)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "nezastroennaya-chast-kvartala",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "nezastroennayachastkvartala",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(0, 0%, 100%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "redko-zastr-chast-kvartala",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "redkozastrchastkvartala",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsla(36, 86%, 84%, 0.73)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "pl-zas-chast-kvart-krup-gorode",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "plzaschastkvartkrupgorode",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "pl-zas-chast-kvart-mal-gorode",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "plzaschastkvartmalgorode",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "pl-zas-chast-kvart-v-pos-s-t",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "plzaschastkvartvposst",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvart-p-zastr-v-p-s-dach-tipa",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartpzastrvpsdachtipa",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvartali-pl-zastr-mal-gorodov",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartaliplzastrmalgorodov",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvartali-plot-zastr-krup-gor",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartaliplotzastrkrupgor",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "kvartali-plotno-zastroen-v-pgt",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "kvartaliplotnozastroenvpgt",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(49, 100%, 57%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "drevesnaya-rastitelnost",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "terrain",
+			"source-layer": "drevesnayarastitelnost",
+			"paint": {
+				"fill-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					9.1,
+					1
+				],
+				"fill-color": "hsl(88, 57%, 77%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					"hsla(0, 0%, 0%, 0)",
+					10,
+					"#000000"
+				]
+			}
+		},
+		{
+			"id": "storona-ulitsi-ploshchadi-i-t-p",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "6263512382bfd37be3dac1bdd821499e"
+			},
+			"source": "buildings",
+			"source-layer": "storonaulitsiploshchadiitp",
+			"paint": {
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					9,
+					0,
+					9.1,
+					1
+				]
+			}
+		},
+		{
+			"id": "vodokhranilishcha-deistvuyushchie copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "vodokhranilishchadeistvuyushchie",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": 2,
+				"line-blur": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "okeani-i-morya copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "okeaniimorya",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": 2,
+				"line-blur": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "ozera-peresikhayushchie copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "ozeraperesikhayushchie",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": 2,
+				"line-blur": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "ozera-postoyannie copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "ozerapostoyannie",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": 2,
+				"line-blur": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "reki-postoyannie copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "rekipostoyannie",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": 2,
+				"line-blur": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "vodokhranilishcha-deistvuyushchie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "vodokhranilishchadeistvuyushchie",
+			"paint": {
+				"fill-color": "hsl(203, 100%, 53%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(242, 100%, 52%, 0)",
+					10,
+					"hsl(242, 100%, 52%)"
+				]
+			}
+		},
+		{
+			"id": "okeani-i-morya",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "okeaniimorya",
+			"paint": {
+				"fill-color": "hsl(203, 100%, 53%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(242, 100%, 52%, 0)",
+					10,
+					"hsl(242, 100%, 52%)"
+				]
+			}
+		},
+		{
+			"id": "ozera-peresikhayushchie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "ozeraperesikhayushchie",
+			"paint": {
+				"fill-color": "hsl(203, 100%, 53%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(242, 100%, 52%, 0)",
+					10,
+					"hsl(242, 100%, 52%)"
+				]
+			}
+		},
+		{
+			"id": "ozera-postoyannie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "ozerapostoyannie",
+			"paint": {
+				"fill-color": "hsl(203, 100%, 53%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(242, 100%, 52%, 0)",
+					10,
+					"hsl(242, 100%, 52%)"
+				]
+			}
+		},
+		{
+			"id": "reki-postoyannie",
+			"type": "fill",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "rekipostoyannie",
+			"paint": {
+				"fill-color": "hsl(203, 100%, 53%)",
+				"fill-outline-color": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					"hsla(242, 100%, 52%, 0)",
+					10,
+					"hsl(242, 100%, 52%)"
+				]
+			}
+		},
+		{
+			"id": "kanali-nesudokhod-ot20-do-60m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalinesudokhodot20do60m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-nesudokhod-60m-i-bolee",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalinesudokhod60mibolee",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-nesudokhodnie-menee-20m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalinesudokhodniemenee20m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-str-nesudokhod-60m-i-b",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalistrnesudokhod60mib",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-str-sudokhod-60m-i-b",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalistrsudokhod60mib",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-sudokhodnie-60m-i-bolee",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalisudokhodnie60mibolee",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					1,
+					10,
+					3
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-sudokhodnie-menee-20m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalisudokhodniemenee20m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "kanali-sudokhodnie-ot20-do60m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "kanalisudokhodnieot20do60m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					2
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "reki-peresikhayushchie-menee-60m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "rekiperesikhayushchiemenee60m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				],
+				"line-dasharray": [
+					4,
+					4
+				]
+			}
+		},
+		{
+			"id": "reki-peresikhayushchie-ot60-do300m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "rekiperesikhayushchieot60do300m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "reki-postoyannie-menee-60m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "rekipostoyanniemenee60m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0,
+					8,
+					1,
+					11,
+					2
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "reki-postoyannie-ot60-do300m",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "rekipostoyannieot60do300m",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					1,
+					10,
+					3
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "ruchi-peresikhayushchie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "01b962196d50c3f15b8ba6189856a052"
+			},
+			"source": "water",
+			"source-layer": "ruchiperesikhayushchie",
+			"layout": {
+				"line-join": "round"
+			},
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-blur": 1,
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					0,
+					0.1,
+					10,
+					1
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					10,
+					1
+				]
+			}
+		},
+		{
+			"id": "polevie-i-lesnie-dorogi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "polevieilesniedorogi",
+			"minzoom": 9,
+			"paint": {
+				"line-dasharray": [
+					7,
+					4
+				],
+				"line-color": "hsl(0, 0%, 50%)"
+			}
+		},
+		{
+			"id": "gruntovie-proselochnie-dorogi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "gruntovieproselochniedorogi",
+			"minzoom": 9,
+			"paint": {
+				"line-dasharray": [
+					7,
+					4
+				],
+				"line-color": "hsl(0, 0%, 50%)"
+			}
+		},
+		{
+			"id": "proezdi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "proezdi",
+			"minzoom": 9,
+			"maxzoom": 9,
+			"layout": {
+				"visibility": "none"
+			},
+			"paint": {
+				"line-color": "hsl(0, 0%, 100%)"
+			}
+		},
+		{
+			"id": "karavannie-puti-vyuchnie-tropi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "karavannieputivyuchnietropi",
+			"minzoom": 9,
+			"paint": {
+				"line-dasharray": [
+					7,
+					4
+				],
+				"line-color": "hsl(0, 0%, 50%)"
+			}
+		},
+		{
+			"id": "peshekhodnie-tropi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "peshekhodnietropi",
+			"minzoom": 9,
+			"paint": {
+				"line-dasharray": [
+					7,
+					4
+				],
+				"line-color": "hsl(0, 0%, 50%)"
+			}
+		},
+		{
+			"id": "shosse",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "shosse",
+			"minzoom": 8,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					0,
+					10,
+					4
+				]
+			}
+		},
+		{
+			"id": "shosse copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "shosse",
+			"minzoom": 8,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					0,
+					10,
+					2
+				],
+				"line-color": "hsl(0, 0%, 100%)"
+			}
+		},
+		{
+			"id": "tupiki",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "tupiki",
+			"minzoom": 8,
+			"paint": {}
+		},
+		{
+			"id": "ulitsi-magistralnie-i-glavnie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "ulitsimagistralnieiglavnie",
+			"minzoom": 8,
+			"maxzoom": 9,
+			"layout": {
+				"visibility": "none"
+			},
+			"paint": {
+				"line-color": "hsl(0, 0%, 100%)",
+				"line-width": 2
+			}
+		},
+		{
+			"id": "ulitsi-prochie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "ulitsiprochie",
+			"minzoom": 8,
+			"maxzoom": 9,
+			"layout": {
+				"visibility": "none"
+			},
+			"paint": {
+				"line-color": "hsl(0, 0%, 100%)",
+				"line-width": 2
+			}
+		},
+		{
+			"id": "ulitsi-vazhneish-magistr-glavnie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "ulitsivazhneishmagistrglavnie",
+			"minzoom": 8,
+			"maxzoom": 9,
+			"layout": {
+				"visibility": "none"
+			},
+			"paint": {
+				"line-color": "hsl(0, 0%, 100%)",
+				"line-width": 2
+			}
+		},
+		{
+			"id": "uluchshennie-grunt-dorogi-str",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "uluchshenniegruntdorogistr",
+			"minzoom": 9,
+			"paint": {
+				"line-color": "hsl(0, 0%, 50%)"
+			}
+		},
+		{
+			"id": "uluchshennie-gruntovie-dorogi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "uluchshenniegruntoviedorogi",
+			"minzoom": 8,
+			"paint": {
+				"line-color": "hsl(0, 0%, 50%)"
+			}
+		},
+		{
+			"id": "usovershenstvovannie-shosse",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "usovershenstvovannieshosse",
+			"minzoom": 8,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					1,
+					10,
+					5
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7.9,
+					0,
+					9,
+					1
+				]
+			}
+		},
+		{
+			"id": "zheleznie-dorogi-shirokokoleinie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "zhelezniedorogishirokokoleinie",
+			"minzoom": 8,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					1,
+					10,
+					5
+				]
+			}
+		},
+		{
+			"id": "zheleznie-dorogi-shirokokoleinie copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "zhelezniedorogishirokokoleinie",
+			"minzoom": 8,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					0,
+					10,
+					3
+				],
+				"line-color": "hsl(0, 0%, 100%)",
+				"line-dasharray": [
+					3,
+					4
+				]
+			}
+		},
+		{
+			"id": "zheleznie-dorogi-uzkokoleinie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "zhelezniedorogiuzkokoleinie",
+			"minzoom": 8,
+			"paint": {
+				"line-width": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "avtomagistrali-avtostradi-str",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "avtomagistraliavtostradistr",
+			"minzoom": 6,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					0,
+					9,
+					5
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7.9,
+					0,
+					9,
+					1
+				]
+			}
+		},
+		{
+			"id": "avtomagistrali-avtostradi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "avtomagistraliavtostradi",
+			"minzoom": 6,
+			"paint": {
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					0,
+					9,
+					5
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7.9,
+					0,
+					9,
+					1
+				]
+			}
+		},
+		{
+			"id": "usovershenstvovannie-shosse copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "usovershenstvovannieshosse",
+			"minzoom": 8,
+			"paint": {
+				"line-color": "hsl(33, 100%, 48%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					0,
+					10,
+					3
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7.9,
+					0,
+					9,
+					1
+				]
+			}
+		},
+		{
+			"id": "avtomagistrali-avtostradi-str copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "avtomagistraliavtostradistr",
+			"minzoom": 8,
+			"paint": {
+				"line-color": "hsl(0, 93%, 56%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					1,
+					9,
+					3
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7.9,
+					0,
+					9,
+					1
+				]
+			}
+		},
+		{
+			"id": "avtomagistrali-avtostradi copy",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "d8575452dc9d4350fa5a6f763d3d0cad"
+			},
+			"source": "roads",
+			"source-layer": "avtomagistraliavtostradi",
+			"minzoom": 7,
+			"paint": {
+				"line-color": "hsl(0, 93%, 56%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					5,
+					0,
+					9,
+					3
+				],
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7.9,
+					0,
+					9,
+					1
+				]
+			}
+		},
+		{
+			"id": "berega-obriv-skal-bez-plyazha",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "terrain",
+			"source-layer": "beregaobrivskalbezplyazha",
+			"layout": {
+				"visibility": "none"
+			},
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					0,
+					9,
+					5
+				],
+				"line-blur": 1,
+				"line-dasharray": [
+					0.1,
+					1
+				],
+				"line-offset": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "gorizont-utolshchen-na-sk-osipyakh",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "horizontals",
+			"source-layer": "gorizontutolshchennaskosipyakh",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "gorizontali-dopolnitelnie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "horizontals",
+			"source-layer": "gorizontalidopolnitelnie",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "gorizontali-osnovnie-na-sushe",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "horizontals",
+			"source-layer": "gorizontaliosnovnienasushe",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "gorizontali-utolshchen-na-lednike",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "horizontals",
+			"source-layer": "gorizontaliutolshchennalednike",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "izobati",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "water",
+			"source-layer": "izobati",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "gorizontali-utolshchennie-na-sushe",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "horizontals",
+			"source-layer": "gorizontaliutolshchennienasushe",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "lednikovie-treshchini",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "terrain",
+			"source-layer": "lednikovietreshchini",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "ledyanie-obrivi",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "terrain",
+			"source-layer": "ledyanieobrivi",
+			"paint": {
+				"line-color": "hsl(226, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "obrivi-zemlyanie",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "terrain",
+			"source-layer": "obrivizemlyanie",
+			"layout": {
+				"visibility": "none"
+			},
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8.9,
+					0,
+					9,
+					5
+				],
+				"line-blur": 1,
+				"line-dasharray": [
+					0.05,
+					1
+				],
+				"line-offset": 2,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "promoini",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "terrain",
+			"source-layer": "promoini",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "sukhie-rusla",
+			"type": "line",
+			"metadata": {
+				"mapbox:group": "91bb0da75c039f79ac19ec704c3b4eff"
+			},
+			"source": "water",
+			"source-layer": "sukhierusla",
+			"paint": {
+				"line-color": "hsl(33, 74%, 45%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					3,
+					0,
+					8,
+					1
+				],
+				"line-blur": 1,
+				"line-opacity": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					0,
+					8,
+					1
+				]
+			}
+		},
+		{
+			"id": "linii-politiko-admin-granits copy",
+			"type": "line",
+			"source": "buildings",
+			"source-layer": "liniipolitikoadmingranits",
+			"minzoom": 7,
+			"filter": [
+				"match",
+				[
+					"get",
+					"SEM67"
+				],
+				[
+					1
+				],
+				false,
+				true
+			],
+			"paint": {
+				"line-color": "hsl(308, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					1,
+					10,
+					2
+				],
+				"line-opacity": 0.5
+			}
+		},
+		{
+			"id": "linii-politiko-admin-granits",
+			"type": "line",
+			"source": "buildings",
+			"source-layer": "liniipolitikoadmingranits",
+			"filter": [
+				"match",
+				[
+					"get",
+					"SEM67"
+				],
+				[
+					"1"
+				],
+				true,
+				false
+			],
+			"paint": {
+				"line-color": "hsl(308, 100%, 46%)",
+				"line-width": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					1,
+					10,
+					10
+				],
+				"line-opacity": 0.39
+			}
+		},
+		{
+			"id": "derewni",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "Derewni",
+			"minzoom": 9,
+			"maxzoom": 11,
+			"layout": {
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-variable-anchor": [
+					"left"
+				],
+				"text-font": [
+					"OfficinaSansC Italic",
+					"Arial Unicode MS Regular"
+				],
+				"text-size": 15
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "point",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "Point",
+			"minzoom": 8,
+			"layout": {
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"text-size": 13
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "kanali-str-sudokhod-60m-i-b copy",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "water",
+			"source-layer": "kanalistrsudokhod60mib",
+			"minzoom": 8,
+			"layout": {
+				"text-size": 15,
+				"symbol-sort-key": 1,
+				"text-max-angle": 70,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "kanali-sudokhodnie-60m-i-bolee copy",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "water",
+			"source-layer": "kanalisudokhodnie60mibolee",
+			"minzoom": 7,
+			"layout": {
+				"text-size": 15,
+				"symbol-sort-key": 1,
+				"text-max-angle": 70,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "kanali-sudokhodnie-menee-20m copy",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "water",
+			"source-layer": "kanalisudokhodniemenee20m",
+			"minzoom": 7,
+			"layout": {
+				"text-size": 15,
+				"symbol-sort-key": 1,
+				"text-max-angle": 70,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "kanali-sudokhodnie-ot20-do60m copy",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "water",
+			"source-layer": "kanalisudokhodnieot20do60m",
+			"minzoom": 7,
+			"layout": {
+				"text-size": 15,
+				"symbol-sort-key": 1,
+				"text-max-angle": 70,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "reki-postoyannie-menee-60m copy",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "water",
+			"source-layer": "rekipostoyanniemenee60m",
+			"minzoom": 9,
+			"layout": {
+				"text-size": 15,
+				"symbol-sort-key": 1,
+				"text-max-angle": 70,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "reki-postoyannie-ot60-do300m copy",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "water",
+			"source-layer": "rekipostoyannieot60do300m",
+			"minzoom": 8,
+			"layout": {
+				"text-size": 15,
+				"symbol-sort-key": 1,
+				"text-max-angle": 70,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.2
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "pgt",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "PGT",
+			"minzoom": 8,
+			"layout": {
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-font": [
+					"OfficinaSansC Italic",
+					"Arial Unicode MS Regular"
+				],
+				"text-anchor": "left",
+				"text-pitch-alignment": "map",
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					12,
+					11,
+					20
+				]
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "line",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "Line",
+			"minzoom": 9,
+			"layout": {
+				"text-size": 14,
+				"symbol-sort-key": 1,
+				"text-max-angle": 90,
+				"symbol-spacing": 500,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-max-width": 100
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "city_other",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "City",
+			"minzoom": 8,
+			"filter": [
+				"all",
+				[
+					"match",
+					[
+						"get",
+						"SEM43"
+					],
+					[
+						"",
+						"12"
+					],
+					true,
+					false
+				],
+				[
+					"<",
+					[
+						"get",
+						"SEM38"
+					],
+					500
+				]
+			],
+			"layout": {
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-font": [
+					"OfficinaSansC Regular",
+					"Arial Unicode MS Regular"
+				],
+				"text-anchor": "left",
+				"text-radial-offset": 1,
+				"text-variable-anchor": [
+					"left",
+					"right"
+				],
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					8,
+					12,
+					11,
+					20
+				],
+				"text-max-width": 100
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "line-1",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "Line1",
+			"layout": {
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					13,
+					11,
+					16
+				],
+				"symbol-sort-key": 1,
+				"text-max-angle": 90,
+				"symbol-spacing": 200,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.1,
+				"text-max-width": 100
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "line-2",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "Line2",
+			"minzoom": 8,
+			"layout": {
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					13,
+					11,
+					20
+				],
+				"symbol-sort-key": 1,
+				"symbol-spacing": 100,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-anchor": "left",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.3,
+				"text-max-width": 1000
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "line-3",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "Line3",
+			"minzoom": 2,
+			"layout": {
+				"text-line-height": 5,
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					13,
+					11,
+					30
+				],
+				"symbol-sort-key": 1,
+				"symbol-avoid-edges": true,
+				"text-max-angle": 90,
+				"symbol-spacing": 600,
+				"text-font": [
+					"PT Serif Italic",
+					"Arial Unicode MS Regular"
+				],
+				"symbol-placement": "line",
+				"text-padding": 0,
+				"text-rotation-alignment": "map",
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-letter-spacing": 0.1,
+				"text-max-width": 200000
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "city_big",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "City",
+			"minzoom": 6,
+			"filter": [
+				"all",
+				[
+					"match",
+					[
+						"get",
+						"SEM43"
+					],
+					[
+						"",
+						"12"
+					],
+					true,
+					false
+				],
+				[
+					">=",
+					[
+						"get",
+						"SEM38"
+					],
+					500
+				]
+			],
+			"layout": {
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-font": [
+					"OfficinaSansC Regular",
+					"Arial Unicode MS Regular"
+				],
+				"text-anchor": "left",
+				"text-radial-offset": 1,
+				"text-variable-anchor": [
+					"left",
+					"right"
+				],
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					7,
+					13,
+					11,
+					26
+				],
+				"text-max-width": 100
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		},
+		{
+			"id": "city_st",
+			"type": "symbol",
+			"metadata": {
+				"mapbox:group": "21f36f4e55bb57127d09a194bc667e33"
+			},
+			"source": "settlements",
+			"source-layer": "City",
+			"minzoom": 2,
+			"filter": [
+				"match",
+				[
+					"get",
+					"SEM43"
+				],
+				[
+					"12"
+				],
+				true,
+				false
+			],
+			"layout": {
+				"text-field": [
+					"to-string",
+					[
+						"get",
+						"SEM9"
+					]
+				],
+				"text-font": [
+					"BruskovayaC Regular",
+					"Arial Unicode MS Regular"
+				],
+				"text-anchor": "left",
+				"text-radial-offset": 1,
+				"text-variable-anchor": [
+					"left",
+					"right"
+				],
+				"text-size": [
+					"interpolate",
+					[
+						"linear"
+					],
+					[
+						"zoom"
+					],
+					6,
+					13,
+					11,
+					24
+				],
+				"text-ignore-placement": true,
+				"symbol-sort-key": 1
+			},
+			"paint": {
+				"text-halo-color": "hsl(0, 100%, 100%)",
+				"text-halo-width": 2,
+				"text-halo-blur": 1
+			}
+		}
+	],
+	"created": "2021-04-22T13:31:00.327Z",
+	"modified": "2021-04-23T07:34:20.551Z",
+	"id": "cknsxat7n0pqb17nwc2orymzl",
+	"owner": "asitnikov",
+	"visibility": "private",
+	"draft": false
+}

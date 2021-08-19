@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Field" ADD COLUMN     "cardId" INTEGER;
+
+-- AddForeignKey
+ALTER TABLE "Field" ADD FOREIGN KEY ("cardId") REFERENCES "Card"("id") ON DELETE SET NULL ON UPDATE CASCADE;

@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "geonder",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
